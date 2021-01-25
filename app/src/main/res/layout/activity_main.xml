@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/et_main_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/indentation_16"
+        android:hint="@string/hint_main_name"
+        android:inputType="textCapWords"/>
+
+    <EditText
+        android:id="@+id/et_main_surname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/indentation_16"
+        android:hint="@string/hint_main_surname"
+        android:inputType="textCapWords"/>
+
+    <EditText
+        android:id="@+id/et_main_fathername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/indentation_16"
+        android:hint="@string/hint_main_fathername"
+        android:inputType="textCapWords"/>
+
+    <EditText
+        android:id="@+id/et_main_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/indentation_16"
+        android:hint="@string/hint_main_age"
+        android:inputType="textCapWords" />
+
+
+    <Button
+        android:id="@+id/btn_main_query_by_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_main_query" />
+
+    <Button
+        android:id="@+id/btn_main_query"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_main_query_by_name" />
+
+    <Button
+        android:id="@+id/btn_main_delete_all"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_main_delete_all_rows" />
+
+
+    <Button
+        android:id="@+id/btn_main_delete_by_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_main_delete_by_name" />
+
+    <Button
+        android:id="@+id/btn_main_insert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_main_insert" />
+
+    <Button
+        android:id="@+id/btn_main_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_main_update" />
+
+</LinearLayout>

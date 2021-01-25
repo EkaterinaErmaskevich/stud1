@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">stud1</string>
+    <string name="hint_main_name">put person name</string>
+    <string name="hint_main_surname">put person surname</string>
+    <string name="hint_main_fathername">put person fathername</string>
+    <string name="hint_main_age">put person age</string>
+    <string name="txt_main_query">query</string>
+    <string name="txt_main_query_by_name">query by name</string>
+    <string name="txt_main_delete_all_rows">delete all rows</string>
+    <string name="txt_main_delete_by_name">delete by name</string>
+    <string name="txt_main_insert">insert</string>
+    <string name="txt_main_update">update</string>
+</resources>

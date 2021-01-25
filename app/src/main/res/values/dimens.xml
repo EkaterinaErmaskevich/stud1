@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    if you need create dimen for width or height of view, dimen must have title view_param + value example button has height 80dp - view_param_80
+    if you need create dimen for margin or padding of view, dimen must have title indentation + value example button has margin 16dp - indentation_16
+    if you need create dimen for text size of view, dimen must have title text_size + value example button has text size 16sp - text_size_16
+
+    <dimen name="indentation_16">16dp</dimen>
+</resources>
